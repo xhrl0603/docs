@@ -1,56 +1,119 @@
 ---
-title: "폼폼프린 소개이빈다.asdasdasd "
-description: "ㅂㅈㄷㅂㅈㄷㅂㅈㄷㅂㅈㄷasdasd"
+title: "디지털 헬스케어 솔루션 소개"
+description: "감정·생체 데이터를 기반으로 개인의 건강을 관리하는 AI 디지털 치료 솔루션"
 ---
 
-## Setting up
+# 💙 디지털 헬스케어 솔루션 소개
 
-Get your documentation site up and runningasdasdasd in minutes.
+> **“기술로 마음과 몸의 균형을 회복하다.”**
 
-<Card title="Start here" icon="rocket" horizontal href="/quickstart">
-  Follow our three step quickstart guide.
-</Card>
+우리 솔루션은 심리학, 의학, 그리고 AI 기술을 결합한\
+**통합형 디지털 헬스케어 플랫폼**입니다.\
+사용자의 생체 신호와 감정 데이터를 분석하여\
+**개인 맞춤형 치료 및 웰빙 경험**을 제공합니다.
 
-## Make it yours
+---
 
-Design a docs site that looks great and empowers your users.
+<img
+  style={{ width:"100%" }}
+/>
 
-<Columns cols={2}>
-  <Card title="Edit locally" icon="pen-to-square" href="/development">
-    Edit your docs locally and preview them in real time.
+---
+
+## 🌿 서비스 핵심 가치
+
+<Grid columns={3}>
+  <Card>
+    <CardTitle>🎯 Personalized Care</CardTitle>
+
+    <CardDescription>
+      생체 신호, 감정 상태, 행동 데이터를 통합 분석하여\
+      사용자에게 맞는 피드백과 힐링 콘텐츠를 제공합니다.
+    </CardDescription>
   </Card>
-  <Card title="Customize your site" icon="palette" href="/essentials/settings">
-    Customize the design and colors of your site to match your brand.
-  </Card>
-  <Card title="Set up navigation" icon="map" href="/essentials/navigation">
-    Organize your docs to help users find what they need and succeed with your product.
-  </Card>
-  <Card title="API documentation" icon="terminal" href="/api-reference/introduction">
-    Auto-generate API documentation from OpenAPI specifications.
-  </Card>
-</Columns>
 
-## Create beautiful pages
+  <Card>
+    <CardTitle>🔬 Scientific Validation</CardTitle>
 
-Everything you need to create world-class documentation.
+    <CardDescription>
+      임상 연구 기반 알고리즘을 적용하여\
+      치료 효과를 과학적으로 검증합니다.
+    </CardDescription>
+  </Card>
 
-<Columns cols={2}>
-  <Card title="Write with MDX" icon="pen-fancy" href="/essentials/markdown">
-    Use MDX to style your docs pages.
-  </Card>
-  <Card title="Code samples" icon="code" href="/essentials/code">
-    Add sample code to demonstrate how to use your product.
-  </Card>
-  <Card title="Images" icon="image" href="/essentials/images">
-    Display images and other media.
-  </Card>
-  <Card title="Reusable snippets" icon="recycle" href="/essentials/reusable-snippets">
-    Write once and reuse across your docs.
-  </Card>
-</Columns>
+  <Card>
+    <CardTitle>🌱 Continuous Engagement</CardTitle>
 
-## Need inspiration?
+    <CardDescription>
+      게임화(Gamification)된 경험으로\
+      사용자의 일상적 참여를 자연스럽게 유도합니다.
+    </CardDescription>
+  </Card>
+</Grid>
 
-<Card title="See complete examples" icon="stars" href="https://mintlify.com/customers">
-  Browse our showcase of exceptional documentation sites.
-</Card>
+---
+
+## 🧩 주요 기능
+
+<Accordion title="🧠 심리 평가 및 진단 모듈">
+  - SCID, GAD-7, PSS-10 등 임상 표준 심리 검사 자동화
+  - 응답 패턴 기반 감정 상태 시각화 및 결과 리포트 제공
+  - 위험군 자동 탐지 및 관리자 알림 기능
+</Accordion>
+
+<Accordion title="💓 생체 데이터 수집 및 분석">
+  - 스마트워치 및 밴드 연동을 통한 HR, 수면, 스트레스 실시간 수집
+  - AI 기반 피로도 예측 및 감정 모델링
+  - 개인별 패턴 기반 맞춤형 건강 피드백
+</Accordion>
+
+<Accordion title="🎮 힐링 콘텐츠 & 인터랙티브 게임">
+  - 감정 일기, 명상, 그림 그리기, 미션형 콘텐츠
+  - 사용자의 기분 변화에 따라 달라지는 몰입형 UI
+  - 캐릭터 “몰리(Molly)”의 감정 코칭 시스템 내장
+</Accordion>
+
+<Accordion title="📊 관리자용 대시보드 (CMS)">
+  - 사용자 상태 모니터링 및 그룹별 통계 시각화
+  - 콘텐츠·설문 결과·피드백 관리 기능
+  - 연구 데이터 및 임상 참가자 관리 통합
+</Accordion>
+
+---
+
+## 🔬 기술 스택
+
+<Tabs>
+  <Tab title="Frontend">
+    ```bash
+    React Native • Expo • Recoil
+    ```
+  </Tab>
+  <Tab title="Backend">
+    ```bash
+    Node.js • Nest.js • MongoDB
+    ```
+  </Tab>
+  <Tab title="Infra & Docs">
+    ```bash
+    Azure • Firebase • AWS S3Mintlify • Notion • Swagger
+    ```
+  </Tab>
+</Tabs>
+
+---
+
+## 🧠 Emotion Detection Model (EDM)
+
+<info>
+  사용자의 **심박수(HR)**, **수면 패턴**, **활동 데이터**를 바탕으로\
+  감정 상태를 실시간 분석하는 머신러닝 모델입니다.
+</info>
+
+```python
+from sklearn.ensemble import RandomForestClassifier
+
+model = RandomForestClassifier()
+model.fit(features, emotion_labels)
+prediction = model.predict(new_data)
+```
